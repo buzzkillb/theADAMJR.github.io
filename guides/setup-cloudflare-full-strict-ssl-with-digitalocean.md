@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=Ye1OrYwVN-U
 Ensure that the **Full (strict)** option is selected for this guide to work.
 ![Full (strict) SSL](https://i.ibb.co/23Zcz95/full-strict-ssl.png)
 
-Also make sure that **Authenticated Origin Pulls** are set to **On**.
+Also make sure that **SSL/TLS** -> **Origin Server** -> **Authenticated Origin Pulls** are set to **On**.
 ![Authenticated Origin Pulls](https://i.ibb.co/dt2Wff5/auth-origin-pulls.png)
 
 ## Install NginX
