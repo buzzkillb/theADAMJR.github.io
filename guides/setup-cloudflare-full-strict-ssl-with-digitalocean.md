@@ -10,9 +10,10 @@ https://www.youtube.com/watch?v=Ye1OrYwVN-U
 
 ## Cloudflare Setup
 Ensure that the **Full (strict)** option is selected for this guide to work.
-![Full (strict) SSL](https://i.ibb.co/7tkr3fb/full-strict-ssl.png)
+![Full (strict) SSL](https://i.ibb.co/23Zcz95/full-strict-ssl.png)
+
 Also make sure that **Authenticated Origin Pulls** are set to **On**.
-![Authenticated Origin Pulls](https://i.ibb.co/jzM688r/auth-origin-pulls.png)
+![Authenticated Origin Pulls](https://i.ibb.co/dt2Wff5/auth-origin-pulls.png)
 
 ## Install NginX
 `apt-get install nginx`
@@ -25,8 +26,10 @@ Create the cloudflare certificate file.
 Copy the contents of this: https://pastebin.com/dmi6AiFD into `cloudflare.crt`
 
 ## Create a Cloudflare Origin Certificate
-![Create a certificate](https://i.ibb.co/4Jr6Zx1/cloudflare-origin-certificate.png)
+
 This will be also be used for secure connections with SSL.
+
+![Create a certificate](https://i.ibb.co/4Jr6Zx1/cloudflare-origin-certificate.png)
 
 ### Create the Origin Certificate File
 `touch /etc/ssl/certs/cert.pem`
